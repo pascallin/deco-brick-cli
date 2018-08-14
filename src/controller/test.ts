@@ -1,25 +1,25 @@
-import { GET, POST, Validate, Render } from 'deco-brick';
-const Joi = require('joi')
+import { GET, POST, Render, Validate } from "deco-brick";
+import Joi from "joi";
 
 class Controller {
-  @GET('/')
-  async get (ctx: any) {
-    return await Promise.resolve({ message: 'hello world' });
+  @GET("/")
+  async get(ctx: any) {
+    return await Promise.resolve({ message: "hello world" });
   }
 
-  @Render('index')
-  @GET('/view')
-  async page (ctx: any) {
-    return {  name: 'pascal' };
+  @Render("index")
+  @GET("/view")
+  async page(ctx: any) {
+    return {  name: "pascal" };
   }
 
   @Validate({
-    username: Joi.string().required(),
     password: Joi.string().required(),
+    username: Joi.string().required(),
   })
-  @POST('/login')
-  async login (ctx: any) {
-    return await Promise.resolve({ status: 'success' });
+  @POST("/login")
+  async login(ctx: any) {
+    return await Promise.resolve({ status: "success" });
   }
 }
 
