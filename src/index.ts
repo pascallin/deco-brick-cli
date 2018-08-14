@@ -1,7 +1,7 @@
-import { BrickServer } from 'deco-brick';
+import { BrickServer } from "deco-brick";
 const app = new BrickServer({
+  controllerPath: __dirname + "/controller",
   port: 3001,
-  controllerPath: __dirname + '/controller',
-  viewPath: __dirname + '/../view'
+  viewPath: __dirname + "/../view",
 });
 app.start();
