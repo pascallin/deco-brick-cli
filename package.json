@@ -8,8 +8,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/joi": "^13.4.2",
-    "deco-brick": "^0.1.3",
-    "joi": "^13.6.0"
+    "@types/joi": "^13.6.0",
+    "deco-brick": "^0.1.6",
+    "joi": "^13.7.0"
   }
 }
