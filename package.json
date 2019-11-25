@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start:dev": "concurrently --handle-input \"wait-on ./dist/index.js && nodemon\" \"tsc -w -p tsconfig.json\" ",
+    "start": "node dist/main.js",
+    "watch": "tsc -w -p tsconfig.json",
     "dev": "nodemon ./dist/index.js"
   },
   "author": "",
@@ -13,6 +16,10 @@
     "joi": "^13.7.0"
   },
   "devDependencies": {
-    "@types/node": "^10.11.5"
+    "@types/node": "^10.11.5",
+    "concurrently": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.1",
+    "typescript": "^3.7.2"
   }
 }
