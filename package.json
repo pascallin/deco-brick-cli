@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/joi": "^13.6.0",
-    "deco-brick": "^0.1.6",
+    "deco-brick": "^0.3.3",
     "joi": "^13.7.0"
   },
   "devDependencies": {
+    "@types/joi": "^14.3.4",
     "@types/node": "^10.11.5",
     "concurrently": "^5.0.0",
     "dotenv": "^8.2.0",
