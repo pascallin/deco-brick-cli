@@ -20,6 +20,7 @@
     "concurrently": "^5.0.0",
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.1",
+    "tslint": "^5.20.1",
     "typescript": "^3.7.2",
     "wait-on": "^3.3.0"
   }
