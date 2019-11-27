@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "deco-brick": "^0.3.3",
+    "deco-brick": "^0.3.6",
     "joi": "^13.7.0"
   },
   "devDependencies": {
