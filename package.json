@@ -1,8 +1,8 @@
 {
   "name": "deco-brick-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Scaffold for brick serials packages",
-  "main": "index.js",
+  "main": "deco-brick-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

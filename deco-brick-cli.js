@@ -14,18 +14,19 @@ const TEMPLATE_REPO = {
 
 program
   .command("init <name>")
+  .description("init starter template project")
   .option(
-    "-t, --template <project>",
+    "-t, --template [deco-brick|module-brick]",
     "add the specified project template",
     "deco-brick" // default
   )
-  .action((name, cmdObj) => {
+  .action((name, opts) => {
     // get template
-    const template = TEMPLATE_REPO[cmdObj.template];
+    const template = TEMPLATE_REPO[opts.template];
     if (!template) {
       console.log(
         chalk.red(
-          "Error: no project template, please using: deco-brick-cli init --template [deco-brick|module-brick] <name>"
+          "error: wrong project template, please using: deco-brick-cli init --template [deco-brick|module-brick] <name>"
         )
       );
       return;
