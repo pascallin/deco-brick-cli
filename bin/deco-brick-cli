@@ -1,11 +1,12 @@
 #!/usr/bin/env node
+
 const { program } = require("commander");
 const download = require("download-git-repo");
 const chalk = require("chalk");
 const ora = require("ora");
 
 const spinner = ora("downing...");
-program.version("0.2.0", "-v, --vers", "output the current version");
+program.version("0.2.2", "-v, --vers", "output the current version");
 
 const TEMPLATE_REPO = {
   "deco-brick": "github:pascallin/deco-brick-cli#template",
@@ -44,4 +45,3 @@ program
       spinner.succeed();
     });
   });
-program.parse(process.argv);
