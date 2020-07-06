@@ -1,7 +1,7 @@
 {
   "name": "deco-brick-cli",
-  "version": "0.1.0",
-  "description": "Scaffold for deco-brick",
+  "version": "0.2.0",
+  "description": "Scaffold for brick serials packages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/pascallin/deco-brick-cli.git"
   },
   "keywords": [
-    "typescript",
-    "deco-brick"
+    "deco-brick",
+    "module-brick"
   ],
   "author": "pascal_lin",
   "license": "ISC",
@@ -21,12 +21,9 @@
   },
   "homepage": "https://github.com/pascallin/deco-brick-cli#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.16.0",
-    "download-git-repo": "^1.0.2",
-    "handlebars": "^4.0.11",
-    "inquirer": "^6.0.0",
-    "log-symbols": "^2.2.0",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
     "ora": "^2.1.0"
   }
 }
