@@ -45,3 +45,5 @@ program
       spinner.succeed();
     });
   });
+
+program.parse(process.argv);

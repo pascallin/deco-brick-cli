@@ -1,10 +1,11 @@
 {
   "name": "deco-brick-cli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Scaffold for brick serials packages",
   "bin": {
-    "deco-brick-cli": "bin/deco-brick-cli"
+    "deco-brick-cli": "./bin/deco-brick-cli"
   },
+  "main": "./bin/deco-brick-cli",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pascallin/deco-brick-cli.git"
