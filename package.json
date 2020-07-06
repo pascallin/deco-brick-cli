@@ -5,9 +5,6 @@
   "bin": {
     "deco-brick-cli": "bin/deco-brick-cli"
   },
-  "scripts": {
-    "release": "release-it"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pascallin/deco-brick-cli.git"
@@ -28,7 +25,5 @@
     "download-git-repo": "^3.0.2",
     "ora": "^2.1.0"
   },
-  "devDependencies": {
-    "release-it": "^13.6.4"
-  }
+  "devDependencies": {}
 }
